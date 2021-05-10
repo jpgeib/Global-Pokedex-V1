@@ -25,5 +25,4 @@ require("./services/passport");
 
 // Connect to database
 
-
 server.listen(PORT, () => console.log(`Server started on port ${PORT}`));
