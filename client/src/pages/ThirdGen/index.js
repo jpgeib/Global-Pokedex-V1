@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 
-class FirstGen extends Component {
+class ThirdGen extends Component {
     render() {
         return (
             <>
                 <Grid.Row>
                     <Grid.Column>
-                        <Header as="h1">Generation I: Red, Blue, and Yellow</Header>
+                        <Header as="h1">Generation III: Ruby, Sapphire, and Emerald & FireRed and LeafGreen</Header>
                     </Grid.Column>
                 </Grid.Row>
             </>
@@ -15,4 +15,4 @@ class FirstGen extends Component {
     }
 }
 
-export default FirstGen;
+export default ThirdGen;
