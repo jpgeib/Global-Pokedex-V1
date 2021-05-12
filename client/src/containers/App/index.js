@@ -14,7 +14,7 @@ class App extends Component {
     render() {
         return (
             <>
-                <Grid>
+                <Grid id="main-container">
                     <Route exact path="/" render={() => <LandingPage />} />
                     <Route exact path="/geni" render={() => <FirstGen />} />
                     <Route exact path="/genii" render={() => <SecondGen />} />
