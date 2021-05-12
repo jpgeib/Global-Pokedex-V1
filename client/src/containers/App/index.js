@@ -7,6 +7,10 @@ import SecondGen from "../../pages/SecondGen";
 import ThirdGen from "../../pages/ThirdGen";
 import FourthGen from "../../pages/FourthGen";
 import FifthGen from "../../pages/FifthGen";
+import SixthGen from "../../pages/SixthGen";
+import SeventhGen from "../../pages/SeventhGen";
+import EighthGen from "../../pages/EighthGen";
+
 
 import "./style.css";
 
@@ -21,6 +25,9 @@ class App extends Component {
                     <Route exact path="/geniii" render={() => <ThirdGen />} />
                     <Route exact path="/geniv" render={() => <FourthGen />} />
                     <Route exact path="/genv" render={() => <FifthGen />} />
+                    <Route exact path="/genvi" render={() => <SixthGen />} />
+                    <Route exact path="/genvii" render={() => <SeventhGen />} />
+                    <Route exact path="/genviii" render={() => <EighthGen />} />
                 </Grid>
             </>
         );
